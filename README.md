@@ -130,3 +130,41 @@
 - if we have a method that in some cases will return a value/object that might cause an error, usually we will surround the output from this method with try and catch, but, as a better practice, we should refactor this method to always return an error-free value/object.
 
 - don't return `null`, don't pass `null` to methods
+
+#### Boundary
+
+- in third-party code, to avoid passing objects, APIs look forward in order to keep things in the same class.
+
+- performs tests on the API's third party.
+
+- study the documentation and test the third API before you start using it.
+
+- check well the features you will use.
+
+- these steps can help increase yield when there are new updates to the API and you can only run your tests to check for this update.
+
+- create tests the functionality of the API.
+
+#### Unit Testing
+
+- make sure each piece of code is doing what you expect it to do.
+
+- follow the TDDs law:
+  * don't create code before you have a failing test.
+  * don't create more tests than necessary to fail.
+  * you cannot write more code than enough to pass the test that is failing.
+
+- keep your test clean.
+
+- the tests must undergo changes in the same way that the code.
+
+- the dirtier the code, the more difficult test will be to maintain.
+
+- use the F.I.R.S.T rule for testing:
+  * the test is fast-running.
+  * the tests are independent of other.
+  * the test is repeatable in various environments.
+  * the test is self-validating.
+  * the test is timely.
+
+- The test is as important as the production code.
