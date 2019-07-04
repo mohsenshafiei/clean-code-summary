@@ -168,3 +168,78 @@
   * the test is timely.
 
 - The test is as important as the production code.
+
+#### Classes
+
+- the class name should represent your responsibility.
+
+- the class must have only one responsibility.
+
+- to know the size of the class is ideal or we should not measure her responsibility.
+
+- you should try to make a brief description of the class.
+
+- the methods should be:
+  * small
+  * and even lower
+  * they must have only one responsibility
+
+#### Systems
+
+- it is important to recognize and separate responsibilities of a system.
+
+- it should be separate and modularize the logic execution, allowing an independent strategy for solving application dependency.
+
+- is important to take care of dependency injections and to allow only objects to take care of the business of logic.
+
+- it is very difficult to create a system properly first. It must be made available to the story, then refactored, and then expanded to continue implementing new stories.
+
+- to get to the point that TDD is necessary, you need refactoring and clean code.
+
+- we must build POJOs-based logic through testing and evolve from simple to interconnect the various aspects necessary.
+
+#### Emergence
+
+Here are the rules that are given by Kent Beck to create good designs:
+
+- *Run All Tests*. They verify that the system behaves as expected.
+
+- *Eliminate Duplication* because duplicate code brings additional work.
+
+- *Minimize The Number of Classes and Methods*. Following this pattern can ignore it if the classes are very small.
+
+- *Apply All Knowledge to Improve the Design During Refactoring*. Increase cohesion, reduce coupling, separate responsibilities, reduce classes and methods, choose the best names.
+
+- even applying it once, you will not be able to have good software. You need to do this over and over again to achieve continuous improvement.
+
+#### Successive Refinement
+
+- the code-only work is not enough to have a good code.
+
+- professionals who care only about the code that works cannot be considered professional.
+
+- we should ignore that we have no time to refactor to one code. The code that was not taken care of today can become a problem after becoming a problem for the team because no one will want to mess with it.
+
+- try not to let the code rot. It is much cheaper to create a clean code than cleaning a rotten code, as a move in a tangle can be an arduous task.
+
+- the solution, then, comes down to maintaining the cleanest code possible and as simply as possible without ever letting it begin to rot.
+
+#### JUnit
+
+- look to cover tests each (not every method, but each code line).
+
+- no code is immune to improvement, and each of us has a responsibility to make the code a little better than we found it.
+
+- refactoring is an iterative process full of trial and error, inevitably converging to something that we feel is worthy of a professional.
+
+#### Refactoring
+
+- before making any kind of refactoring, it is important to have good coverage tests.
+
+- after increasing or creating test coverage, you can begin to leave the clearest code and fix some bugs.
+
+- now, after leaving the code clearer, someone else can probably clean it even more.
+
+#### Conclusion
+
+Professionalism and craftsmanship come from values and discipline in lists of what you should and should not do when creating a code.
